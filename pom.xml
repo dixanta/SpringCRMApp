@@ -15,7 +15,7 @@
     </properties>
     
     <dependencies>
-<dependencies>
+
             <dependency>
                 <groupId>javax</groupId>
                 <artifactId>javaee-web-api</artifactId>
@@ -63,7 +63,7 @@
                 <version>4.3.11.Final</version>
             </dependency>                                                        
         </dependencies>
-    </dependencies>
+
 
     <build>
          <plugins>
