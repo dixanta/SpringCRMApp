@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DefaultController {
     
     @RequestMapping(method = RequestMethod.GET)
-    @ResponseBody
+    
     public String index(){
         return "index";
     }
