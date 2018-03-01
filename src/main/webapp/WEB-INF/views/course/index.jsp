@@ -10,9 +10,24 @@
             <div class="box-body">
               <div class="row">
                 <div class="col-md-8">
-                  <p class="text-center">
-                    <strong>${course.name}</strong>
-                  </p>
+                    <table class="table">
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Code</th>
+                            <th>Fees</th>
+                            <th>Status</th>
+                        </tr>
+                        <c:forEach var="course" items="${courses}">
+                            <tr>
+                                <td>${course.id}</td>
+                                <td>${course.name}</td>
+                                <td>${course.code}</td>
+                                <td>${course.fees}</td>
+                                <td>${course.status}</td>
+                            </tr>
+                        </c:forEach>
+                    </table>
 
                   
                 </div>
