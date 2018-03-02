@@ -8,19 +8,23 @@ package com.crm.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+
 
 /**
  *
  * @author USER
  */
 @Controller
-@RequestMapping(value="/home")
+@RequestMapping(value="/login")
 public class DefaultController {
     
     @RequestMapping(method = RequestMethod.GET)
-    
     public String index(){
         return "index";
+    }
+    
+    @RequestMapping(method = RequestMethod.POST)
+    public String login(){
+        return "redirect:/dashboard";
     }
 }
