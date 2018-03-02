@@ -51,7 +51,7 @@
                                     </c:otherwise>
                                 </c:choose>
                             </td>
-                            <td>
+                            
                             <td>
 
                                 <form method="POST" action="http://localhost:8000/categories/1" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="WziHaQzX3J7Cne1W20OghBgcUg2cYJsrtxgE9bRI">
