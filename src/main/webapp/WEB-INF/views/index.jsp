@@ -15,7 +15,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="${SITE_URL}/static/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="${SITE_URL}/static/bower_components/admin-lte//css/AdminLTE.min.css">
+  <link rel="stylesheet" href="${SITE_URL}/static/bower_components/admin-lte/dist/css/AdminLTE.min.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="${SITE_URL}/static/bower_components/admin-lte/plugins/iCheck/square/blue.css">
 
