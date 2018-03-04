@@ -5,8 +5,8 @@
  */
 package com.crm.web.controller;
 
-import com.crm.web.dao.CourseDAO;
-import com.crm.web.entity.Course;
+import com.crm.web.dao.FacilitatorDAO;
+import com.crm.web.entity.Facilitator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value = "/facilitator")
 public class FacilitatorController {
     @Autowired
-    private CourseDAO courseDAO;
+    private FacilitatorDAO facilitatorDAO;
     @RequestMapping(method =RequestMethod.GET )
     public String index(Model model){
-        model.addAttribute("facilitators",courseDAO.getAll());
+        model.addAttribute("facilitators",facilitatorDAO.getAll());
         return "facilitator/index";
     }
 }

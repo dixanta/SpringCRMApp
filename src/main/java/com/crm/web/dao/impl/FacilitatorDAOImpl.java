@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author USER
  */
-@Repository(value = "courseDAO")
+@Repository(value = "facilitatorDAO")
 public class FacilitatorDAOImpl implements FacilitatorDAO {
 
     public List<Facilitator> getAll() {
